@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.quantity {
+  width: 120px;
+  background: #4b5569;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #4b5569;
+  border-bottom: 2px solid #4b5569;
+  border-left: 1px solid #4b5569;
+  text-align: center;
+}
+
+.quantity_minus {
+  border-radius: 3px 0 0 3px;
+}
+
+.quantity_plus {
+  border-radius: 0 3px 3px 0;
+}
+
+.quantity_input {
+  width: 60px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-size-adjust: inherit;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 2px solid white;
+  font-size: x-large;
+  background: #fff;
+  color: #7a4bb1;
 }
